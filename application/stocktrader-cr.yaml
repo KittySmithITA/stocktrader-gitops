@@ -122,7 +122,7 @@ spec:
     cpuThreshold: 75
     image:
       repository: quay.io/gas_stocktrader/portfolio
-      tag: e4fe8fc62a28e09b6abbe139dde613e97c2c4346
+      tag: 323d9a7c25fa4bad6783d86d89e78d7ab04b3b0c
     maxReplicas: 10
     replicas: 2
     url: 'http://{{ .Release.Name }}-portfolio-service:9080/portfolio'
