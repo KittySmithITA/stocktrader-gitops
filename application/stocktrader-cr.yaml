@@ -71,8 +71,8 @@ spec:
     cpuThreshold: 75
     enabled: true
     image:
-      repository: ibmstocktrader/messaging
-      tag: latest
+      repository: quay.io/gas_stocktrader/messaging
+      tag: dd0c19846ca176db9d7c2e78701acc031761dbb3
     maxReplicas: 10
     notification:
       url: 'http://{{ .Release.Name }}-notification-service:9080/notification'
